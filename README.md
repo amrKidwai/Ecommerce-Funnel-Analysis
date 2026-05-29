@@ -4,7 +4,7 @@ End-to-end product analytics project using SQL and Power BI to analyze customer 
 
 ## Dashboard Preview
 
-![Dashboard](dashboard_overview.png)
+![Dashboard](dashboard SS.png)
 
 ## Business Problem
 

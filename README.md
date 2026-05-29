@@ -33,6 +33,23 @@ The company wanted to understand where users drop off during the purchase journe
 - Mobile users generated the highest revenue.
 - Funnel optimization opportunities were identified to improve conversions.
 
+## Recommendations
+
+- Simplify checkout flow to reduce abandonment.
+- Optimize mobile checkout experience.
+- Implement cart abandonment email campaigns.
+- Reduce payment friction during checkout.
+## Sample SQL Query
+
+```sql
+SELECT
+    device_type,
+    COUNT(*) AS purchases,
+    SUM(revenue) AS total_revenue
+FROM ecommerce_data
+GROUP BY device_type
+ORDER BY total_revenue DESC;
+```
 ## Repository Contents
 
 - Ecommerce Funnel Analysis.sql
